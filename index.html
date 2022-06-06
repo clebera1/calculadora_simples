@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt/br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/style.css" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora simples</h1> 
+    </header>
+    <div id ="form">
+        <input type="number" id="n1" placeholder="Digite o primeiro numero"> <!-- Caixa p digitar o primeiro numero -->
+        <br> <br>  
+        <select id="selector"> <!-- selecionar os operadores aritmeticos -->
+            <option value="+">+</option> 
+            <option value="-">-</option>
+            <option value="*">x</option>
+            <option value="/">/</option>
+            <option value="**">^</option>
+            <option value="√">√</option>
+            <option value="%">%</option>
+        </select> 
+        <br><br>
+        <input type="number" id="n2" placeholder="Digite o segundo numero"> <!-- caixa p digitar o segundo numero-->
+        <br><br> 
+    </div>
+    <button onclick="calcular()">Calcular</button> <!-- botão que chama o metodo calcular-->
+    <div>
+        <h3 id = "resultado"></h3> <!-- resultado das operaçoes-->
+<script src="scripts/script.js"></script>
+</body>
+</html>
