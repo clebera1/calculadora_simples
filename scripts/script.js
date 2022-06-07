@@ -42,6 +42,8 @@ function calcular (n1, n2){
             }else{
                 document.getElementById("resultado").innerHTML = `O resultado da raiz de ${n2} é ${calculo}`
             }
+            
+            break
 
         case '%':
             calculo = (n1 % n2)
